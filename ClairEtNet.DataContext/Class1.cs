@@ -1,4 +1,4 @@
-﻿namespace ClairEtNet.DataContext;
+﻿namespace ClairEtNet.Model;
 
 public class Class1
 {
