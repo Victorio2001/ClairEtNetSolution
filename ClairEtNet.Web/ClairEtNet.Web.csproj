@@ -19,4 +19,14 @@
         <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.11"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\ClairEtNet.DataContext\ClairEtNet.DataContext.csproj" />
+      <ProjectReference Include="..\ClairEtNet.DataSource\ClairEtNet.DataSource.csproj" />
+      <ProjectReference Include="..\ClairEtNet.Model\ClairEtNet.Model.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Areas\" />
+    </ItemGroup>
+
 </Project>
